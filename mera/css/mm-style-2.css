@@ -1,0 +1,84 @@
+/*@import url(http://fonts.googleapis.com/css?family=Titillium+Web:500);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);*/
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  /*overflow-x:hidden;*/
+}
+.wrap{
+  height: 100%;
+  overflow: hidden;
+}
+
+.mm-bg{
+  background-color: #eee;
+}
+.mm-bg-white{
+  background-color: #fff;
+}
+
+
+
+.sidebar-container{
+  height: 100%;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  box-orient: horizontal;
+  float: left;
+
+}
+
+.bg-gradient {
+    background: linear-gradient(154deg, #008FE2 0px, #00B29C 100%) repeat scroll 0% 0% transparent;
+}
+.bg-black {
+    background-color: black;
+}
+.body-color{
+	background: none repeat scroll 0% 0% #FAFCFE;
+}
+
+.uk-block-border{
+	border: 1px;
+	border-style: solid;
+	border-color: #DEE2E3;
+}
+.uk-nav-side, h3, h2{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h4, h5, h6{
+	font-family: Robot, sans-serif;
+}
+.color-white{
+	color: white #fff;
+}
+
+.color-white li a:hover{
+	color: black #000;
+}
+.top-menu-position{
+  z-index: 999999;
+}
+/*gallery image selected*/
+.selected { 
+  border: 4px solid green; }
+/* test image preview before upload */
+#profile-imagePreview {
+    width: 180px;
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    display: inline-block;
+}
